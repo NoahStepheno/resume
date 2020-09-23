@@ -1,0 +1,117 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{郑明}
+
+\basicInfo{
+  \email{fireflyEngineer@gmail.com} \textperiodcentered\ 
+  \phone{(+86) 15643214252} \textperiodcentered\ 
+ }
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{吉林农业大学}, 长春}{2010.9 -- 2015.7}
+\textit{本科}\ 电子信息科学与技术
+
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{杭州法本信息技术有限公司 外派 菜鸟}}{2020.3 -- 至今}
+\role{前端工程师}{主要负责驿站中台相关业务}
+\begin{itemize}
+  \item 驿站中台业务承接
+  \item 助力业务
+  \item 通过制定 boilerplate，推进架构升级、分层，提高代码质量、研发规范、研发速度。
+  \item 改造原有框架结构，代码重构。
+  \item 深入理解业务，抽象秒表工具度量用户体验，度量、产出提升价值。
+  \item 基于高德地图二次封装，提高代码、项目质量、研发速度。
+  \item 解决团队中的疑难问题
+  \item 深入 code review 保障线上质量。
+  \item 参与合作伙伴面试等
+\end{itemize}
+
+\datedsubsection{\textbf{杭州威佩科技有限公司}}{2019.9 - 2020.3}
+\role{前端工程师}{负责游戏比赛以及工具开发}
+\begin{itemize}
+    \item 皇室战争擂台赛
+    \item 荒野乱斗数据工具 (微信小程序)
+    \item 皇室战争数据工具
+    \item H5截图工具
+    \item 主要技术栈 react、SSR、typescript、koa、nodejs、websocket
+    \item 由于所处业务边缘切不盈利，遇新冠疫情被裁
+\end{itemize}
+
+\datedsubsection{\textbf{杭州兑吧网络科技有限公司}}{2018.8 - 2019.8}{
+\role{前端工程师}{主要负责积分商城Saas服务，以及可视化编辑器开发}
+\begin{itemize}
+    \item 参与canvas引擎开发，可视化编辑器（electron）开发，相关内容包括，设计时、运行时，引擎解释器，ts declare 编译，组件设计， 虚拟文件系统，线上组组件库服务（golang开发）等整套解决方案，方案类似于cocos。
+    \item 包活运营类活动及抽象， 以及 canvas 游戏类运营活动及抽象，实现高效可复用、可配置运营活动。
+\end{itemize}
+}
+
+\datedsubsection{\textbf{杭州遥望网络有限公司}}{2017.11 - 2018.6}{
+\role{前端工程师}{B端广告平台、C端知识付费、数据可视化等}
+\begin{itemize}
+    \item B端广告主平台搭建 （业务：用户来平台购买广告位）
+    \item 基于Docker，Sentry 搭建前端错误监控系统
+    \item 基Jenkins搭建自动化流程 （jenkins + 阿里云OSS 文件传输 采用 node.js SDK + shell脚本，git， ssh ）
+    \item C端变现类项目 (包括技术选型、框架搭建等)
+    \item 基于 Echarts 开发数据可视化，动态观测技术内部，BUG、故障等数据，以及用户活跃状态，加强对项目质量以及业务的理解。
+\end{itemize}
+}
+
+\datedsubsection{\textbf{杭州先手科技有限公司}}{2017.2 - 2017.11}{
+\role{前端工程师}{电商商城C端页面、以及管理系统}
+\begin{itemize}
+    \item 微商、电商系统后台管理，C端业务
+    \item 因全部都是重复性工作以及团队氛围等因素个人无法改变后离开。
+\end{itemize}
+}
+
+\datedsubsection{\textbf{帮家里人做生意}}{{2015.7 - 2017.2}{
+\begin{itemize}
+    \item 毕业后，对工作比较迷茫，所以选择帮家里人做生意，微商电商相关
+    \item 商品(美妆类、服装类等)从研发 -> 生产 -> 货运 -> 仓储 -> 销售 -> 物流 -> 客服 -> 赔付等，生命周期里都很熟悉
+    \item 其中找一些软件外包，自己也策划、研发了一些活动等
+    \item 后因为兴趣缺乏、已经缺少提升空间、能力凭借，转行技术
+\end{itemize}
+}}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: javascript、 typescript > node.js > go 
+  \item 编程范式: FP > OOP > EOP
+  \item 前端技术栈：react > vue
+  \item 其他：koa、gin、nginx、docker、k8s等稍有涉及
+\end{itemize}
+
+\section{\faHeartO\ 自我评价}
+\textit{深入业务，关注并深挖技术底层，较强的分析问题，解决问题能力，良好的团队沟通、协作和服务意识。善于思考问题的细节，有不错的创造力。对于软件工程有着不错的架构分层能力。
+热爱生活、热爱工作。}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item GitHub: https://github.com/NoahStepheno
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
